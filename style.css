@@ -37,12 +37,17 @@ header{
     width: 100vw;
     background-color: #1A242E;
 }
-#inicio a{
+#inicio a, #inicio li{
     color: rgba(242,244,246,.9);
     text-decoration: none;
     font-size: 17px;
     font-family: sans-serif;
 }
+/* #inicio li{
+    color: rgba(242,244,246,.9);
+    font-size: 17px;
+    font-family: sans-serif;
+} */
 
 .container{
     margin: 0 auto;
@@ -177,4 +182,109 @@ header{
     flex-direction: column;
     padding-top: 30px;
     padding-bottom: 10px;
+}
+.filmesRecomendados img{
+    margin-bottom: -10px;
+}
+/* #categorias{
+    margin: 0;
+    width: 100%;
+    height: 34vh;
+    background-image: radial-gradient(ellipse at left top,rgba(29,79,115,.2) 10%,#0f171e 80%),radial-gradient(ellipse at left bottom,rgba(29,79,115,.1) 20%,#0f171e 80%);
+} */
+#linha-vertical {
+    height: 250px;
+    border-right: 2px solid #8197a4;
+    align-self: center;
+}
+.containerCategorias{
+    /* background-color: red; */
+    /* width: 80vw;
+    height: 100%;
+    float: right; */
+    display: flex;
+    justify-content: center;
+
+    margin: 0;
+    width: 100%;
+    height: 34vh;
+    background-image: radial-gradient(ellipse at left top,rgba(29,79,115,.2) 10%,#0f171e 80%),radial-gradient(ellipse at left bottom,rgba(29,79,115,.1) 20%,#0f171e 80%);
+}
+.cardsCategoria{
+    width: 160px;
+    height: 100px;
+    background-color: rgb(32, 32, 255);
+    border-radius: 9px;
+    margin: 8px;
+}
+#categoriasPrincipais ul{
+    list-style: none;
+}
+#categoriasPrincipais li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+#categoriasPrincipais a{
+    font-weight: 700;
+    font-size: 17px;
+}
+.containerCategorias a{
+    text-decoration: none;
+}
+.generoOutros a{
+    font-size: 17px;
+    color: #8197a4;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.generoOutros li{
+    margin-top: 10px;
+}
+.cardsCategoria a{
+    font-family: 'Source Sans Pro', sans-serif;
+    /* font-size: 15px; */
+    color: white;
+}
+.generoOutros ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.generoOutros{
+    display: flex;
+    flex-direction: row;
+}
+.containerCategorias h2{
+    margin-top: 15px;
+    font-size: 17px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: white;
+}
+.generoOutros h2{
+    margin-left: 50px;
+}
+#quebrarLinha{
+    display: flex;
+    flex-direction: row;
+}
+#cardMenuCategoria{
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto auto;
+}
+#principais{
+    margin-right: 50px;
+}
+#principais h2{
+    margin-left: 9px;
+}
+.displayCategoria{
+    display: none;
+}
+#outrasCategorias ul {
+    margin-left: 200px;
+}
+#outrasCategorias h2{
+    margin-left: 200px;
 }
