@@ -2,7 +2,7 @@
 
 
 var entrarCategoria = document.querySelector("#idCat");
-var sairCategoria = document.querySelector("#banner");
+var sairCategoria = document.querySelector(".filmesRecomendados");
 
 
 entrarCategoria.addEventListener("mouseover", function(){
