@@ -67,6 +67,22 @@ header{
     transform: translate(-50%);
     
 }
+.navigation-auto{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translate(-50%);
+}
+.navigation-auto div{
+    width: 10px;
+    border: 1px solid hsla(0,0%,100%,.3);
+    float: left;
+    margin-right: 7px;
+    border-radius: 50%;
+    padding: 5px;
+    background-color: hsla(0,0%,100%,.3);
+    cursor: pointer;
+}
 .bar{
     width: 10px;
     border: 1px solid hsla(0,0%,100%,.3);
@@ -126,6 +142,36 @@ header{
 }
 #slide10:checked ~ .s1{
     margin-left: -90%;
+}
+#slide1:checked ~ .navigation-auto .auto-btn1{
+    background-color: white;
+}
+#slide2:checked ~ .navigation-auto .auto-btn2{
+    background-color: white;
+}
+#slide3:checked ~ .navigation-auto .auto-btn3{
+    background-color: white;
+}
+#slide4:checked ~ .navigation-auto .auto-btn4{
+    background-color: white;
+}
+#slide5:checked ~ .navigation-auto .auto-btn5{
+    background-color: white;
+}
+#slide6:checked ~ .navigation-auto .auto-btn6{
+    background-color: white;
+}
+#slide7:checked ~ .navigation-auto .auto-btn7{
+    background-color: white;
+}
+#slide8:checked ~ .navigation-auto .auto-btn8{
+    background-color: white;
+}
+#slide9:checked ~ .navigation-auto .auto-btn9{
+    background-color: white;
+}
+#slide10:checked ~ .navigation-auto .auto-btn10{
+    background-color: white;
 }
 .flex{
     display: flex;
