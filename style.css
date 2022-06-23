@@ -136,6 +136,7 @@ header{
     height: 180px;
     background-color: red;
     margin-left: 10px;
+    border-radius: 3px;
 }
 .filmesRecomendados{
     margin-top: 20px;
@@ -287,4 +288,7 @@ header{
 }
 #outrasCategorias h2{
     margin-left: 200px;
+}
+#idCat{
+    cursor: pointer;
 }
